@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background:linear-gradient(#fca311,#14213d);
+}
+.board{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: black;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+h2{
+    color: red;
+    font-size: 80px;
+    display: inline-block;
+    font-family: 'Bungee Spice', cursive;
+
+
+    
+}
+h3{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 5px 0px 4px black;
+}
+button{
+    margin: 10px 5px;
+    width: 60px;
+    height: 50px;
+    border:1px dashed black;
+    background: transparent;
+    text-shadow: 0px 0px 2px #14213d;
+    
+    border-radius: 5px;
+}
